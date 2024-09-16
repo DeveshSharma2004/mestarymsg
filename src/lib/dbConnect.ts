@@ -1,4 +1,3 @@
-import { log } from "console";
 import mongoose from "mongoose";
 
 type ConnectionObject = {
@@ -32,3 +31,5 @@ async function dbConnect(): Promise<void> {
 
 
 export default dbConnect;
+
+
